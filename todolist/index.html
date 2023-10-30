@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            padding-left: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+            width: 300px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        label,input{
+            width: 100px;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button{
+            width: 50px;
+        }
+        table,tr,th,td{
+            border: 1px solid black;
+            ;
+        }
+        .line-through{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="" >UserName</label>
+        <input type="text" id="name">
+
+        <label for="" >E-Mail</label>
+        <input type="text" id="email">
+
+        <label for="" >Password</label>
+        <input type="text" id="pwd">
+
+        <button id="button">Add</button>
+    </form>
+    <table>
+        <tr>
+            <th>UserName</th>
+            <th>E-Mail</th>
+            <th>Password</th>
+        </tr>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
